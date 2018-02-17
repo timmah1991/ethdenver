@@ -1,0 +1,2 @@
+curl -H "Authorization: Bearer APIKEY" -X PUT "APIURL/switches/on"
+curl -H "Authorization: Bearer APIKEY" -X PUT "APIURL/switches/off"
