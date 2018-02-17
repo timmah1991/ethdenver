@@ -29,7 +29,6 @@ preferences {
   section ("Allow external service to control these things...") {
     input "switches", "capability.switch", multiple: true, required: true
     }
-    {
 	section("Allow external service to set the switch levels") {
 		input "switches", "capability.switchLevel", multiple: true
 	}
