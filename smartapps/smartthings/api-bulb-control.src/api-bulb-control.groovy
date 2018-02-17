@@ -59,7 +59,7 @@ def listSwitches() {
 
     def resp = []
     switches.each {
-        resp << [name: it.displayName, ID: it.id, value: it.currentValue("switch")]
+        resp << [name: it.displayName, ID: it.id, level: it.currentValue("level"), value: it.currentValue("switch")]
     }
     return resp
 }
